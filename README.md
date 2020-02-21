@@ -1,2 +1,2 @@
 # duuka-app
-Tracking business accounts and inventory
+### Tracking business accounts and inventory
