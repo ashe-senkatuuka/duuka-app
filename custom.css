@@ -1,0 +1,19 @@
+body {
+	background-color: #dce0ed;
+}
+
+.deco-footer{
+	background-color: teal;
+	
+}
+
+#copyright{
+	text-align: center;
+      
+        width: 100%;
+        line-height: 40px;
+		font-size: 1.5em;
+		color: black;
+     
+        bottom:0;
+}
