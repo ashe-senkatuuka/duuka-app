@@ -2,12 +2,27 @@
 <html>
 
 <head>
-  <style>
-    New user login
-  </style>
-
   <link rel="stylesheet" href="./css/Custom.css">
   <link rel="stylesheet" href="./css/bootstrap.css">
+
+  <title>users landing page</title>
+  <style>
+   
+    body{
+      background-color: white;
+      color: #6991ac;
+      padding-left: 200px;
+      margin-top: 100px;
+    }
+    .row{
+      padding: 50px;
+      height: 600px;
+      margin-top: 10px;
+      width: 1000px;
+      border: 5px solid black;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -17,26 +32,31 @@
 
   <!--NAVBAR-->
 
-  <!--First Column-->
+  <!--A div with two columns
+    First Column-->
   <div class="row">
-    <div class="column">
-      <h2>ADD USER DETAILS</h2>
-      <p>
+    <div class="column-lg-6" style="padding-left: 50px;">
+      <h3>ADD USER DETAILS</h3>
+      <!--Form that captures user login details-->
         <div class="form-group">
-          <label for="inputAddress">Name</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Peter James">
+          <label for="inputFirstName">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName" placeholder="Peter ">
         </div>
         <div class="form-group">
-          <label for="inputAddress2">Email</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="petjames@gmail.com">
+          <label for="inputLastName">Last Name</label>
+          <input type="text" class="form-control" id="inputLastName" placeholder=" James">
         </div>
         <div class="form-group">
-          <label for="inputAddress">Role</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Admin or Salesperson">
+          <label for="inputEmail">Email</label>
+          <input type="text" class="form-control" id="inputEmail" placeholder="petjames@gmail.com">
         </div>
         <div class="form-group">
-          <label for="inputAddress2">Phone No</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="+25678555016">
+          <label for="inputRole">Role</label>
+          <input type="text" class="form-control" id="inputRole" placeholder="Admin or Salesperson">
+        </div>
+        <div class="form-group">
+          <label for="inputPhoneNo">Phone No</label>
+          <input type="text" class="form-control" id="inputPhoneNo" placeholder="Phone No.">
         </div>
       </p>
       <p>
@@ -44,13 +64,10 @@
         <button type="button" class="btn btn-secondary btn-lg">CANCEL</button>
       </p>
     </div>
-
-    <!--First Column-->
-
-
+   
     <!--Second column-->
-    <div class="column">
-      <h2>PASSPORT PHOTO</h2>
+    <div class="column-lg-6" style="padding-left: 100px;">
+      <h3>PASSPORT PHOTO</h3>
       <p>
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="./Images/placeholder.png" alt="Card image cap">
@@ -62,11 +79,7 @@
       </p>
     </div>
   </div>
-  <!--Second Column-->
-
-
-
-
+  
 </body>
 
 </html>
